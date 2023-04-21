@@ -1,0 +1,54 @@
+body {
+    background: url("");
+     font-family: 'Eater', cursive;
+     background-size: cover;
+     margin-left: 150px;
+     margin-right: 150px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center center;
+ }
+ #title{
+     display: flex;
+     justify-content: center;
+ }
+  h1{
+     font-size: 30px;
+     color: black;
+     
+  }
+
+ #instructions p{
+     text-align: center;
+     color: black;
+     margin-top: 20%;
+
+ }
+
+ #buttoncontainer{
+  display: flex;
+  justify-content: center;
+
+ }
+ #buttoncontainer button{
+      font-family: 'Eater', cursive;
+     color: black;
+     margin: 10px;
+     padding: 10px 15px;
+     background: none;
+     border: 3px solid rgb(108, 83, 47);
+     cursor: pointer;
+     font-weight: bold;
+ }
+
+ #buttoncontainer button:hover{
+     background-color: rgb(108, 83, 47);
+     color: white;
+ }
+ #instructionsstory p{
+    text-align: center;
+    color: black;
+    margin-top: 15%;
+    font-size: 25px;
+
+}
